@@ -21,7 +21,16 @@ Enviro-setup
 ### Miscellaneous:
 - [Spectacle](http://www.spectacleapp.com) *Mac window control*
 
-### Terminal Alias:
+### bash_profile
+```
+export PS1="\[\e[34m\] [\d \T] \[\e[36m\]\w $ "
+
+if [ -f ~/.bashrc ]; then
+        source ~/.bashrc
+fi
+```
+
+### bashrc:
 ```
 ## *most utils have a GNU version and BSD version. Linux take the GNU version while OSX may take a BSD version, so options for those commands may differ.
 
