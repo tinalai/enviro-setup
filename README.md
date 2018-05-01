@@ -8,6 +8,7 @@ Enviro-setup
 
 ### PACKAGE MANAGERS:
 - [npm](https://www.npmjs.com/get-npm)
+- [nvm](https://github.com/creationix/nvm) Node Version Manager. Useful if you need multiple versions of Node.js
 - [brew](https://brew.sh/)
   *Or just paste this line in the terminal*
   `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
