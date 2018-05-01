@@ -6,6 +6,12 @@ Enviro-setup
 - [Atom](https://atom.io/)
 - [Hyper](https://hyper.is/)
 
+### PACKAGE MANAGERS:
+- [npm](https://www.npmjs.com/get-npm)
+- [brew](https://brew.sh/)
+  *Or just paste this line in the terminal*
+  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 ### Design:
 - [Zeplin](https://zeplin.io/) *Design -> Dev*
 
