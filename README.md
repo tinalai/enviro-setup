@@ -22,16 +22,27 @@ Enviro-setup
 - [Spectacle](http://www.spectacleapp.com) *Mac window control*
 
 ### Terminal Alias:
-```# ----------------------
+```
+## *most utils have a GNU version and BSD version. Linux take the GNU version while OSX may take a BSD version, so options for those commands may differ.
+
+# Checking which environment and assign appropriate ls alias
+_myos="$(uname)"
+
+case $_myos in
+  Linux) alias ls='ls --color';;
+  Darwin) alias ls='ls -G';;
+  *) ;;
+esac
+
+# ----------------------
 # General Aliases
 # ----------------------
 
-#---- ls command output ----#
+# Directory shortcuts #
+alias beats='cd ~/Documents/Beats'
 
-## Colorize ls output ##
-alias ls='ls --color=auto'
+# ls command output ----#
 
-## Long listing format ##
 alias ll='ls -la'
 
 ## Show hidden files ##
