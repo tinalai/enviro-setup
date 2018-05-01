@@ -23,7 +23,7 @@ Enviro-setup
 
 ### bash_profile
 ```
-export PS1="\[\e[34m\] [\d \T] \[\e[36m\]\w $ "
+export PS1="\[\e[34m\] [\d \T] \[\e[36m\]\w $ \e[m"
 
 if [ -f ~/.bashrc ]; then
         source ~/.bashrc
