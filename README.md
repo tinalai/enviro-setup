@@ -22,7 +22,7 @@ Enviro-setup
 ### Miscellaneous:
 - [Spectacle](http://www.spectacleapp.com) *Mac window control*
 
-### bash_profile
+### .bash_profile
 ```
 export PS1="\[\e[34m\] [\d \T] \[\e[36m\]\w $ \e[m"
 
@@ -31,7 +31,7 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-### bashrc:
+### .bashrc
 ```
 ## *most utils have a GNU version and BSD version. Linux take the GNU version while OSX may take a BSD version, so options for those commands may differ.
 
