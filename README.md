@@ -70,8 +70,15 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
+
+#---- git shortcuts ----#
+alias gst='git status'
+alias gb='git branch'
+alias gco='git checkout'
+alias gp='git pull'
+alias gfo='git fetch origin'
 ```
-### Git config 
+### .gitconfig 
 ```
 [alias]
 
@@ -117,4 +124,8 @@ rh2 = reset HEAD^^ --hard
 sl = stash list
 sa = stash apply
 ss = stash save
+```
+### .vimrc
+```
+syntax on
 ```
