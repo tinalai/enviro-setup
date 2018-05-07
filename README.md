@@ -24,7 +24,11 @@ Enviro-setup
 
 ### .bash_profile
 ```
-export PS1="\[\e[34m\] [\d \T] \[\e[36m\]\w $ \e[m"
+parse_git_branch() {
+        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export PS1="\[\e[34m\] [\d \T] \[\e[36m\]\w \[\033[00m\]\$(parse_git_branch) \[\e[36m\] $ \e[m"
 
 if [ -f ~/.bashrc ]; then
         source ~/.bashrc
