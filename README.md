@@ -37,7 +37,9 @@ fi
 
 ### .bashrc
 ```
-## *most utils have a GNU version and BSD version. Linux take the GNU version while OSX may take a BSD version, so options for those commands may differ.
+source ~/git-completion.bash
+
+# ***Most utils have a GNU version and BSD version. Linux take the GNU version while OSX may take a BSD version, so options for those commands may differ.
 
 # Checking which environment and assign appropriate ls alias
 _myos="$(uname)"
@@ -132,4 +134,8 @@ ss = stash save
 ### .vimrc
 ```
 syntax on
+```
+### Git Completion
+```
+Copy source file from https://github.com/git/git/blob/master/contrib/completion/git-completion.bash to ~/.git-completion.bash
 ```
