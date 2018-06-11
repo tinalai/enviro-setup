@@ -136,6 +136,4 @@ ss = stash save
 syntax on
 ```
 ### Git Completion
-```
-Copy source file from https://github.com/git/git/blob/master/contrib/completion/git-completion.bash to ~/.git-completion.bash
-```
+Download and add file from Git source code: [~/.git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
