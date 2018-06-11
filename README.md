@@ -23,7 +23,7 @@ Enviro-setup
 - [Spectacle](http://www.spectacleapp.com) *Mac window control*
 
 ### Git Completion
-Download and add file from Git source code: [~/.git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+Download and add file from [Git source code](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 
 ### .bash_profile
 ```
