@@ -40,7 +40,7 @@ fi
 
 ### .bashrc
 ```
-source ~/git-completion.bash
+source ~/.git-completion.bash
 
 # ***Most utils have a GNU version and BSD version. Linux take the GNU version while OSX may take a BSD version, so options for those commands may differ.
 
