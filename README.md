@@ -3,14 +3,16 @@ Enviro-setup
 
 ### IDE:
 - [VScode](https://code.visualstudio.com/download)
-   ##### Extensions:
-  - [NightSwitch](https://marketplace.visualstudio.com/items?itemName=gharveymn.nightswitch) | [lite ver.](https://marketplace.visualstudio.com/items?itemName=gharveymn.nightswitch-lite) Automatically switches your VS Code theme between specified day and night themes. 
-  - [Vim Emulation](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+   #### Extensions:
+   - [NightSwitch](https://marketplace.visualstudio.com/items?itemName=gharveymn.nightswitch) | [lite ver.](https://marketplace.visualstudio.com/items?itemName=gharveymn.nightswitch-lite) Automatically switches your VS Code theme between specified day and night themes. 
+   - [Vim Emulation](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
   
-   ##### Themes:
+   #### Themes:
   - [White](https://marketplace.visualstudio.com/items?itemName=arthurwhite.White) Minimalist monochrome theme.
 - [Atom](https://atom.io/)
 - [Hyper](https://hyper.is/)
+   #### Themes:
+   - [Firewatch](https://www.npmjs.com/package/hyper-firewatch)
  
  
   
