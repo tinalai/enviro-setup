@@ -3,9 +3,17 @@ Enviro-setup
 
 ### IDE:
 - [VScode](https://code.visualstudio.com/download)
+   ##### Extensions:
+  - [NightSwitch](https://marketplace.visualstudio.com/items?itemName=gharveymn.nightswitch) | [lite ver.](https://marketplace.visualstudio.com/items?itemName=gharveymn.nightswitch-lite) Automatically switches your VS Code theme between specified day and night themes. 
+  - [Vim Emulation](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+  
+   ##### Themes:
+  - [White](https://marketplace.visualstudio.com/items?itemName=arthurwhite.White) Minimalist monochrome theme.
 - [Atom](https://atom.io/)
 - [Hyper](https://hyper.is/)
-
+ 
+ 
+  
 ### PACKAGE MANAGERS:
 - [npm](https://www.npmjs.com/get-npm)
 - [nvm](https://github.com/creationix/nvm) Node Version Manager. Useful if you need multiple versions of Node.js
